@@ -1,0 +1,18 @@
+{
+  "orchestrator_name": "T3rmux-x",
+  "version": "1.0.0",
+  "audio": {
+    "sample_rate": 16000,
+    "max_listen_seconds": 15,
+    "tts_engine": "termux-tts-speak"
+  },
+  "gemini": {
+    "model": "gemini-2.5-pro",
+    "thinking_budget_tokens": 2048,
+    "temperature": 0.2
+  },
+  "claude": {
+    "headless_flag": "-p",
+    "auto_approve": true
+  }
+}
