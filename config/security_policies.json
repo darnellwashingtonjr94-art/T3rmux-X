@@ -1,0 +1,9 @@
+{
+  "claude_permissions": {
+    "allowed_directories": ["/data/data/com.termux/files/home/T3rmux-x/workspace"],
+    "blocked_commands": ["rm -rf /", "su", "sudo", "chmod 777"],
+    "network_access": true,
+    "max_file_size_mb": 50
+  },
+  "auto_approve_mutations": true
+}
