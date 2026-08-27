@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  t3rmux-x:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: t3rmux-x-app
+    restart: unless-stopped
+    # Mounts the current directory so local changes sync to the container
+    volumes:
+      - .:/app 
+    # If the app exposes a web interface or API, map the ports here
+    # ports:
+    #   - "8080:8080" 
+    environment:
+      - NODE_ENV=development
+      # Add any necessary API keys (like Gemini or Claude) here
+      # - GEMINI_API_KEY=your_key_here 
