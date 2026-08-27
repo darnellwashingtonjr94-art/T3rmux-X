@@ -1,0 +1,10 @@
+{
+  "name": "t3rmux-x-workspace",
+  "version": "1.0.0",
+  "description": "Workspace execution environment for T3rmux-x builds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
