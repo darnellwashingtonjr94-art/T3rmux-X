@@ -1,0 +1,21 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Environment initialization script for Termux
+
+echo "[+] Updating Termux packages..."
+pkg update -y && pkg upgrade -y
+
+echo "[+] Installing core dependencies (Python, Node.js, Termux-API)..."
+pkg install python nodejs termux-api git -y
+
+echo "[+] Installing global npm tools (Claude Code)..."
+npm install -g @anthropic-ai/claude-code
+
+echo "[+] Setting up Python virtual environment..."
+python -m venv venv
+source venv/bin/activate
+
+echo "[+] Installing Python dependencies..."
+pip install --upgrade pip
+pip install google-genai requests
+
+echo "[+] Setup complete! Ensure the Termux:API app is installed from F-Droid."
