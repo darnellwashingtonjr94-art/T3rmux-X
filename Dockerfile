@@ -1,20 +1,13 @@
-# Simulates the Termux environment on a desktop for offline T3rmux-x testing
-FROM ubuntu:22.04
+# 1. Ensure curl is installed so you can download the script
+RUN apt-get update && apt-get install -y curl
 
-RUN apt-get update && apt-get install -y \
-    python3 python3-pip python3-venv \
-    nodejs npm git curl zip jq \
-    && rm -rf /var/lib/apt/lists/*
+# 2. Add the NodeSource repository for Node.js 20
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 
-# Mock Termux API scripts to prevent crashes on PC
-RUN echo '#!/bin/bash\necho "Mock Speech"' > /usr/local/bin/termux-speech-to-text && \
-    chmod +x /usr/local/bin/termux-speech-to-text
+# 3. Install the newer version of Node.js (this includes npm)
+RUN apt-get install -y nodejs
 
-RUN echo '#!/bin/bash\necho "TTS: $1"' > /usr/local/bin/termux-tts-speak && \
-    chmod +x /usr/local/bin/termux-tts-speak
+# ... your other commands ...
 
-WORKDIR /home/T3rmux-x
-COPY . .
-
+# 4. Now run the installation
 RUN npm install -g @anthropic-ai/claude-code
-CMD ["/bin/bash"]
