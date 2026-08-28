@@ -1,5 +1,74 @@
 # T3rmux-X
 
+# 💻 Tech Stack — T3rmux-X
+
+## Core Programming Languages & Core Systems
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=black)
+![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=webassembly&logoColor=white)
+
+---
+
+## Platform Support & Hardware Architecture
+![Android](https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=android&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![ARM64](https://img.shields.io/badge/ARM64-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![x86_64](https://img.shields.io/badge/x86__64-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![RISC-V](https://img.shields.io/badge/RISC--V-0761AB?style=for-the-badge&logo=riscv&logoColor=white)
+
+---
+
+## Low-Level Infrastructure & Performance
+![Linux Kernel](https://img.shields.io/badge/Kernel_Dev-111111?style=for-the-badge&logo=linux&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-1D9BF0?style=for-the-badge&logo=ebpf&logoColor=white)
+![POSIX](https://img.shields.io/badge/POSIX_Compliant-005596?style=for-the-badge&logo=unix&logoColor=white)
+![SIMD / AVX](https://img.shields.io/badge/SIMD_Vectorization-0071C5?style=for-the-badge&logo=cpu&logoColor=white)
+![Memory Management](https://img.shields.io/badge/Manual_Memory_Mgmt-2E3440?style=for-the-badge&logo=c&logoColor=white)
+
+---
+
+## Cybersecurity & Offensive Auditing
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C93?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-1F78B4?style=for-the-badge&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/Reverse_Engineering-000000?style=for-the-badge&logo=ghidra&logoColor=white)
+![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-CC0000?style=for-the-badge&logo=target&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6600?style=for-the-badge&logo=burp-suite&logoColor=white)
+
+---
+
+## DevOps & Build Tools
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![Make](https://img.shields.io/badge/Make-000000?style=for-the-badge&logo=gnu&logoColor=white)
+![Ninja](https://img.shields.io/badge/Ninja-000000?style=for-the-badge&logo=ninja&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+---
+
+## Artificial Intelligence & Quantum
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)
+![Cirq](https://img.shields.io/badge/Cirq-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+---
+
+## Cloud Providers
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-web-services&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+
+
 > **TL;DR:** Imagine you have two super-smart AI assistants living inside your phone. If you want to build an app, you just tell your phone what you want out loud. The first AI (Gemini) acts like the boss and draws up the blueprints. It hands them to the second AI (Claude), who types at lightning speed and builds the app for you right on your phone!
 
 ---
