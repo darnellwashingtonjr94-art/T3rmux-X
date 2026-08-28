@@ -12,12 +12,16 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v4
 
+      # Recommended step to set up the build environment
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       # 1. Authenticate to Docker Hub
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       # 2. Build and push the image
       - name: Build and push
@@ -25,4 +29,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: credkellar/t3rmux-x:latest # Replace t3rmux-x with your actual image name
+          tags: credkellar/t3rmux-x:latest # Change t3rmux-x if your image name is different
