@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="IMG_1612.jpeg" alt="T3rmux-X Logo" width="600">
+</p>
+
 # T3rmux-X
 
 # 💻 Tech Stack
